@@ -89,11 +89,15 @@ cargarEstudiantes() {
 
   eliminar(id: number) {
     this.estudianteService.eliminarEstudiante(id).subscribe({
-      next: () => {
-        this.mostrarExito('Estudiante eliminado con éxito.');
+      next: (respuesta: any) => {
+        const texto = respuesta?.mensaje || 'Estudiante eliminado con éxito.';
+        this.mostrarExito(texto);
         this.cargarEstudiantes();
       },
-      error: () => this.mostrarError('No se pudo eliminar el estudiante. Intenta de nuevo.')
+      error: (err) => {
+        const textoError = err.error?.mensaje || 'No se pudo eliminar el estudiante. Intenta de nuevo.';
+        this.mostrarError(textoError);
+      }
     });
   }
 

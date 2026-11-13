@@ -117,7 +117,8 @@ public class ProfesorController(IProfesorService profesorService, ILogger<Profes
             if (ProfesorMod.Status == (int)HttpStatusCode.OK)
                 return Ok(ProfesorMod);
             else
-                return NotFound((ResponseHelper.Error<DataModelResponse>(HttpStatusCode.NotFound.ToString(), MensajesHelper.ErrorEliminar("profesor"), (int)HttpStatusCode.NotFound)));
+                return BadRequest(ProfesorMod);
+            //return NotFound((ResponseHelper.Error<DataModelResponse>(HttpStatusCode.NotFound.ToString(), MensajesHelper.ErrorEliminar("profesor"), (int)HttpStatusCode.NotFound)));
         }
         catch (Exception ex)
         {

@@ -50,7 +50,10 @@ export class ProfesoresComponent implements OnInit {
         this.mostrarExito(resp?.mensaje || 'Profesor eliminado con éxito.');
         this.cargarProfesores();
       },
-      error: () => this.mostrarError('No se pudo eliminar el profesor. Intenta de nuevo.')
+      error: (err) => {
+        const textoError = err.error?.mensaje || 'No se pudo eliminar el profesor. Intenta de nuevo.';
+        this.mostrarError(textoError);
+      } 
     });
   }
 

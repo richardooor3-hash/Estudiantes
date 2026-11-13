@@ -116,7 +116,7 @@ public class EstudianteController(IEstudianteServices estudianteServices, ILogge
             if (estudianteMod.Status == (int)HttpStatusCode.OK)
                 return Ok(estudianteMod);
             else
-                return NotFound((ResponseHelper.Error<DataModelResponse>(HttpStatusCode.NotFound.ToString(), MensajesHelper.ErrorEliminar("estudiante"), (int)HttpStatusCode.NotFound)));
+                return BadRequest(estudianteMod);
         }
         catch (Exception ex)
         {
