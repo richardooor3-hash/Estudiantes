@@ -1,0 +1,61 @@
+<div class="table-responsive">
+  <table class="table table-striped table-hover align-middle mb-0">
+    <thead class="table-dark">
+      <tr>
+        @for (col of columnas; track col.clave) {
+          <th>{{ col.titulo }}</th>
+        }
+        <th class="text-end" style="width: 180px;">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of datosPaginados; track item.id) {
+        <tr>
+          @for (col of columnas; track col.clave) {
+            <td>
+              @if (col.esDecimal) {
+                <strong>{{ item[col.clave] | number:'1.2-2' }}</strong>
+              } @else {
+                {{ item[col.clave] }}
+              }
+            </td>
+          }
+          <td class="text-end">
+            <button class="btn btn-sm btn-warning me-2" (click)="onEditar.emit(item)">Editar</button>
+            <button class="btn btn-sm btn-danger" (click)="onEliminar.emit(item.id)">Eliminar</button>
+          </td>
+        </tr>
+      } @empty {
+        <tr>
+          <td [attr.colspan]="columnas.length + 1" class="text-center text-muted py-4">
+            No hay registros disponibles.
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+@if (totalPaginas > 1) {
+  <nav aria-label="Paginación" class="d-flex justify-content-between align-items-center mt-3 pt-2 border-top">
+    <span class="text-muted small">
+      Página {{ paginaActual }} de {{ totalPaginas }} ({{ datos.length }} registros)
+    </span>
+
+    <ul class="pagination pagination-sm mb-0">
+      <li class="page-item" [class.disabled]="paginaActual === 1">
+        <button type="button" class="page-link" (click)="cambiarPagina(paginaActual - 1)">Anterior</button>
+      </li>
+
+      @for (pag of paginasArray; track pag) {
+        <li class="page-item" [class.active]="paginaActual === pag">
+          <button type="button" class="page-link" (click)="cambiarPagina(pag)">{{ pag }}</button>
+        </li>
+      }
+
+      <li class="page-item" [class.disabled]="paginaActual === totalPaginas">
+        <button type="button" class="page-link" (click)="cambiarPagina(paginaActual + 1)">Siguiente</button>
+      </li>
+    </ul>
+  </nav>
+}

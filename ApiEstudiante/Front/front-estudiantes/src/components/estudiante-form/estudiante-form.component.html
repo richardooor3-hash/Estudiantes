@@ -1,0 +1,40 @@
+<div class="container mt-4" style="max-width: 600px;">
+  <div class="card shadow-sm">
+    <div class="card-header bg-dark text-white">
+      <h5 class="mb-0">
+        {{ esEdicion ? 'Editar Estudiante #' + estudianteId : 'Registrar Nuevo Estudiante' }}
+      </h5>
+    </div>
+
+    <div class="card-body">
+      @if (mensajeError) {
+        <div class="alert alert-danger">{{ mensajeError }}</div>
+      }
+
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label class="form-label">Nombre del Estudiante</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="nombre"
+            placeholder="Ej. Juan Pérez"
+            [class.is-invalid]="form.get('nombre')?.invalid && form.get('nombre')?.touched">
+
+          @if (form.get('nombre')?.invalid && form.get('nombre')?.touched) {
+            <div class="invalid-feedback">
+              El nombre es obligatorio (mínimo 3 caracteres).
+            </div>
+          }
+        </div>
+
+        <div class="d-flex justify-content-end gap-2">
+          <a routerLink="/estudiantes" class="btn btn-secondary">Cancelar</a>
+          <button type="submit" class="btn btn-primary" [disabled]="form.invalid || guardando">
+            {{ guardando ? 'Guardando...' : (esEdicion ? 'Actualizar' : 'Guardar') }}
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

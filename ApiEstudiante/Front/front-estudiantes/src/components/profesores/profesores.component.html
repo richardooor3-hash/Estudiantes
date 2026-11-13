@@ -1,0 +1,25 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Gestión de Profesores</h2>
+    <a routerLink="/profesores/nuevo" class="btn btn-primary">+ Nuevo Profesor</a>
+  </div>
+
+  @if (mensajeExito) {
+    <div class="alert alert-success">{{ mensajeExito }}</div>
+  }
+  @if (mensajeError) {
+    <div class="alert alert-danger">{{ mensajeError }}</div>
+  }
+
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <app-tabla-generica
+        [datos]="profesores"
+        [columnas]="columnasTabla"
+        [itemsPorPagina]="5"
+        (onEditar)="editar($event)"
+        (onEliminar)="eliminar($event)">
+      </app-tabla-generica>
+    </div>
+  </div>
+</div>

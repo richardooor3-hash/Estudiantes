@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\apiestudiante\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|solutionrelative:apiestudiante\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\aplicaci\u00F3n\\services\\notaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|solutionrelative:aplicaci\u00F3n\\services\\notaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\aplicaci\u00F3n\\services\\profesorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|solutionrelative:aplicaci\u00F3n\\services\\profesorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\aplicaci\u00F3n\\services\\estudianteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CAFBD3A-B9DA-47CD-82B5-E40CBBCA120C}|Aplicaci\u00F3n\\Aplicaci\u00F3n.csproj|solutionrelative:aplicaci\u00F3n\\services\\estudianteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\apiestudiante\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|solutionrelative:apiestudiante\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705890BF-ED52-4966-A9E6-0D65AC794E76}|Dominio\\Dominio.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\dominio\\constantes\\mensajeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705890BF-ED52-4966-A9E6-0D65AC794E76}|Dominio\\Dominio.csproj|solutionrelative:dominio\\constantes\\mensajeshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705890BF-ED52-4966-A9E6-0D65AC794E76}|Dominio\\Dominio.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\dominio\\constantes\\constantesmsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705890BF-ED52-4966-A9E6-0D65AC794E76}|Dominio\\Dominio.csproj|solutionrelative:dominio\\constantes\\constantesmsj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\apiestudiante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|solutionrelative:apiestudiante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\apiestudiante\\apiestudiante.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|solutionrelative:apiestudiante\\apiestudiante.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|c:\\users\\richa\\documents\\prueba_estudiantes\\apiestudiante\\back\\apiestudiante\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E0B7BE-5FB0-4B43-AA44-07C41C227EB8}|ApiEstudiante\\Core.csproj|solutionrelative:apiestudiante\\controllers\\notacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotaService.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\NotaService.cs",
+              "RelativeDocumentMoniker": "Aplicaci\u00F3n\\Services\\NotaService.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\NotaService.cs",
+              "RelativeToolTip": "Aplicaci\u00F3n\\Services\\NotaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:29:46.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfesorService.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\ProfesorService.cs",
+              "RelativeDocumentMoniker": "Aplicaci\u00F3n\\Services\\ProfesorService.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\ProfesorService.cs",
+              "RelativeToolTip": "Aplicaci\u00F3n\\Services\\ProfesorService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:29:06.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstudianteServices.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\EstudianteServices.cs",
+              "RelativeDocumentMoniker": "Aplicaci\u00F3n\\Services\\EstudianteServices.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Aplicaci\u00F3n\\Services\\EstudianteServices.cs",
+              "RelativeToolTip": "Aplicaci\u00F3n\\Services\\EstudianteServices.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:28:46.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "ApiEstudiante\\Controllers\\EstudianteController.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "ApiEstudiante\\Controllers\\EstudianteController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:26:58.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiEstudiante\\appsettings.json",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\appsettings.json",
+              "RelativeToolTip": "ApiEstudiante\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T01:54:36.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MensajesHelper.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Dominio\\Constantes\\MensajesHelper.cs",
+              "RelativeDocumentMoniker": "Dominio\\Constantes\\MensajesHelper.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Dominio\\Constantes\\MensajesHelper.cs",
+              "RelativeToolTip": "Dominio\\Constantes\\MensajesHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:29:00.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConstantesMsj.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Dominio\\Constantes\\ConstantesMsj.cs",
+              "RelativeDocumentMoniker": "Dominio\\Constantes\\ConstantesMsj.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\Dominio\\Constantes\\ConstantesMsj.cs",
+              "RelativeToolTip": "Dominio\\Constantes\\ConstantesMsj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:28:58.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Program.cs",
+              "RelativeDocumentMoniker": "ApiEstudiante\\Program.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Program.cs",
+              "RelativeToolTip": "ApiEstudiante\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:28:29.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiEstudiante.http",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\ApiEstudiante.http",
+              "RelativeDocumentMoniker": "ApiEstudiante\\ApiEstudiante.http",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\ApiEstudiante.http",
+              "RelativeToolTip": "ApiEstudiante\\ApiEstudiante.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-11-12T01:28:20.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotaController.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Controllers\\NotaController.cs",
+              "RelativeDocumentMoniker": "ApiEstudiante\\Controllers\\NotaController.cs",
+              "ToolTip": "C:\\Users\\richa\\Documents\\Prueba_estudiantes\\ApiEstudiante\\Back\\ApiEstudiante\\Controllers\\NotaController.cs",
+              "RelativeToolTip": "ApiEstudiante\\Controllers\\NotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T01:23:01.274Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

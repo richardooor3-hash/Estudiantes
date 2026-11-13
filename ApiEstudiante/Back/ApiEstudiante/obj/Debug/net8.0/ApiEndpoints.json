@@ -1,0 +1,344 @@
+[
+  {
+    "ContainingType": "ApiEstudiante.Controllers.EstudianteController",
+    "Method": "ActualizarEstudiante",
+    "RelativePath": "api/Estudiante/ActualizarEstudiante",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.In.ActualizarEstudianteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.EstudianteController",
+    "Method": "ConsultarEstudianteForId",
+    "RelativePath": "api/Estudiante/ConsultarEstudianteForId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplicaci\u00F3n.Dtos.Out.ConsultaEstudianteResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.EstudianteController",
+    "Method": "ConsultarEstudiantes",
+    "RelativePath": "api/Estudiante/ConsultarEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaEstudianteResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.EstudianteController",
+    "Method": "EliminarEstudiante",
+    "RelativePath": "api/Estudiante/EliminarEstudiante/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaEstudianteResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.EstudianteController",
+    "Method": "RegistrarEstudiante",
+    "RelativePath": "api/Estudiante/RegistrarEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.RegistrarEstudianteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaEstudianteResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.NotaController",
+    "Method": "ActualizarNota",
+    "RelativePath": "api/Nota/ActualizarNota",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.In.ActualizarNotaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.NotaController",
+    "Method": "ConsultarNotaForId",
+    "RelativePath": "api/Nota/ConsultarNotaForId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplicaci\u00F3n.Dtos.Out.ConsultaNotaResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.NotaController",
+    "Method": "ConsultarNotas",
+    "RelativePath": "api/Nota/ConsultarNotas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaNotaResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.NotaController",
+    "Method": "EliminarNota",
+    "RelativePath": "api/Nota/EliminarNota/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaNotaResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEstudiante.Controllers.NotaController",
+    "Method": "RegistrarNota",
+    "RelativePath": "api/Nota/RegistrarNota",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.In.RegistrarNotaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaNotaResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProfesor.Controllers.ProfesorController",
+    "Method": "ActualizarProfesor",
+    "RelativePath": "api/Profesor/ActualizarProfesor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.In.ActualizarProfesorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProfesor.Controllers.ProfesorController",
+    "Method": "ConsultarProfesores",
+    "RelativePath": "api/Profesor/ConsultarProfesores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaProfesorResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProfesor.Controllers.ProfesorController",
+    "Method": "ConsultarProfesorForId",
+    "RelativePath": "api/Profesor/ConsultarProfesorForId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplicaci\u00F3n.Dtos.Out.ConsultaProfesorResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProfesor.Controllers.ProfesorController",
+    "Method": "EliminarProfesor",
+    "RelativePath": "api/Profesor/EliminarProfesor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaProfesorResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProfesor.Controllers.ProfesorController",
+    "Method": "RegistrarProfesor",
+    "RelativePath": "api/Profesor/RegistrarProfesor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Aplicaci\u00F3n.Dtos.In.RegistrarProfesorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dominio.Model.ResponseModel\u00601[[Aplicaci\u00F3n.Dtos.Out.ConsultaProfesorResponse, Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

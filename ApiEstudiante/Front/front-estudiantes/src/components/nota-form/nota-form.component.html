@@ -1,0 +1,77 @@
+<div class="container mt-4" style="max-width: 650px;">
+  <div class="card shadow-sm">
+    <div class="card-header" [ngClass]="esEdicion ? 'bg-warning text-dark' : 'bg-dark text-white'">
+      <h5 class="mb-0">
+        {{ esEdicion ? 'Editar Nota #' + notaId : 'Registrar Nueva Nota' }}
+      </h5>
+    </div>
+
+    <div class="card-body">
+      @if (mensajeError) {
+        <div class="alert alert-danger">{{ mensajeError }}</div>
+      }
+
+      <form [formGroup]="form" (ngSubmit)="guardar()">
+        <div class="mb-3">
+          <label class="form-label">Concepto / Nombre de la Nota</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="nombre"
+            placeholder="Ej. Parcial 1"
+            [class.is-invalid]="form.get('nombre')?.invalid && form.get('nombre')?.touched">
+          @if (form.get('nombre')?.invalid && form.get('nombre')?.touched) {
+            <div class="invalid-feedback">El concepto es obligatorio.</div>
+          }
+        </div>
+
+        <div class="row g-3 mb-3">
+          <div class="col-md-6">
+            <label class="form-label">Profesor</label>
+            <select class="form-select" formControlName="idProfesor">
+              <option [value]="0" disabled>Seleccione un profesor...</option>
+              @for (prof of profesores; track prof.id) {
+                <option [value]="prof.id">{{ prof.nombre }}</option>
+              }
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Estudiante</label>
+            <select class="form-select" formControlName="idEstudiante">
+              <option [value]="0" disabled>Seleccione un estudiante...</option>
+              @for (est of estudiantes; track est.id) {
+                <option [value]="est.id">{{ est.nombre }}</option>
+              }
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label">Valor de la Nota (0.00 - 5.00)</label>
+          <input
+            type="number"
+            step="0.01"
+            class="form-control"
+            formControlName="valor"
+            placeholder="Ej. 4.50"
+            [class.is-invalid]="form.get('valor')?.invalid && form.get('valor')?.touched">
+          @if (form.get('valor')?.invalid && form.get('valor')?.touched) {
+            <div class="invalid-feedback">Ingresa una nota válida entre 0.00 y 5.00.</div>
+          }
+        </div>
+
+        <div class="d-flex justify-content-end gap-2">
+          <a routerLink="/notas" class="btn btn-secondary">Cancelar</a>
+          <button
+            type="submit"
+            class="btn"
+            [ngClass]="esEdicion ? 'btn-warning' : 'btn-primary'"
+            [disabled]="form.invalid || guardando">
+            {{ guardando ? 'Guardando...' : (esEdicion ? 'Actualizar' : 'Guardar') }}
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

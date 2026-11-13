@@ -1,0 +1,16 @@
+<form [formGroup]="form" (ngSubmit)="enviar()" class="card p-3 mb-4 shadow-sm">
+  <div class="row g-3 align-items-end">
+    <div class="col-md-8">
+      <label class="form-label">{{ etiqueta }}</label>
+      <input type="text" class="form-control" formControlName="nombre" [placeholder]="placeholder">
+    </div>
+    <div class="col-md-4">
+      <button type="submit" class="btn btn-primary me-2" [disabled]="form.invalid">
+        {{ modoEdicion ? 'Actualizar' : 'Guardar' }}
+      </button>
+      @if (modoEdicion) {
+        <button type="button" class="btn btn-secondary" (click)="cancelar()">Cancelar</button>
+      }
+    </div>
+  </div>
+</form>
